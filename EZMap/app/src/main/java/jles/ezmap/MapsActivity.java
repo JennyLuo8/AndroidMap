@@ -143,8 +143,6 @@ public class MapsActivity extends FragmentActivity {
                      */
                     googleMap.moveCamera(CameraUpdateFactory.zoomTo(10));
                     googleMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
-
-                    //auto-zoom depending on whether search term was Address, City, or State
                 }
             }
         }
